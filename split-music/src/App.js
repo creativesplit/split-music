@@ -8,10 +8,11 @@ import Electropop from './Electropop'
 import Progressivehouse from './Progressivehouse'
 import Trap from './Trap'
 import House from './House'
+import OdeszaLoyal from './Tracks/OdeszaLoyal'
+import XieDrip from './Tracks/XieDrip'
 import Heavy from './Heavy'
-
-
-
+import Odesza from './Artists/Odesza'
+import Xie from './Artists/Xie'
 
 
 class App extends Component {
@@ -21,6 +22,10 @@ class App extends Component {
       <div className='trick'>
       <Header />
       <Switch>
+      <Route path='/odesza' render={() => <Odesza />} />
+      <Route path='/xie' render={() => <Xie />} />
+      <Route path='/odeszaloyal' render={() => <OdeszaLoyal />} />
+      <Route path='/xiedrip' render={() => <XieDrip />} />
       <Route path="/hiphop" render={() => <Hiphop/>}/>
       <Route path="/house" render={() => <House/>} />
       <Route path="/trap" render={() => <Trap />}/>

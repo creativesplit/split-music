@@ -1,0 +1,80 @@
+.xiedrip-entry{
+    margin: 180px 50px 0px 50px;
+    background: url('https://i.imgur.com/o0KfpxC.jpg?1');
+    background-size: cover;
+    padding:10px 10px 25px 10px;
+    border: 1px solid rgb(219, 163, 89);
+    border-radius: 3px;
+}
+
+.xiedrip-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(	205 205 193);
+}
+
+.xiedrip-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 25px;
+    color: black;
+}
+
+.xiedrip-genre{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(	205 205 193);
+    /* background-color: rgba(255,255,240, .3); */
+    width: 100px;
+}
+
+.xiedrip-date{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(	205 205 193);
+    
+    /* background-color: rgba(34, 32, 33, .6); */
+    border-radius: 2px;
+    width: 80px;
+}
+
+.xiedrip-player{
+    display: inline-flex;
+    max-height: 200px;
+}
+
+.xiedrip-genre{
+    padding: 0px 110px 0px 0px;
+}
+
+.xiedrip-description{
+    color:rgb(	205 205 193);
+}
+
+.xie-link-container{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    color:rgb(205 205 193);
+    /* background-color: rgba(255,255,240, .3); */
+    border-radius: 3px;
+    padding: 0px 15px 0px 15px;
+}
+
+.xie-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(219, 163, 89);
+    border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(34, 32, 33, .8);
+}
