@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
 import {Link} from 'react-router-dom'
-import './Header.css'
+import './Header1.css'
 import { slide as Menu } from 'react-burger-menu'
 import  DrawerToggleButton from './DrawerToggleButton'
 
 
 
 const Header1 = props => (
-
-
 
         <div>
         <header className='header-wrapper'> 

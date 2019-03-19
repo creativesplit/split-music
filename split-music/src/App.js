@@ -37,17 +37,15 @@ class App extends Component {
   }
     
   render() {
-    let sideDrawer;
     let backdrop;
 
     if(this.state.sideDrawerOpen){
-      sideDrawer = <SideDrawer />
       backdrop = <BackDrop click={this.backdropClickHandler}/>
     }
     return (
       <div className='App' style={{height: '100%'}}>
       <Header1 drawerClickHandler={this.drawerToggleClickHandler}/>
-      {sideDrawer}
+      <SideDrawer show={this.state.sideDrawerOpen}/>
       {backdrop}
       <Switch>
       <Route path='/terrorreidburiedalive' render={() => <ReidBuriedAlive />} />
