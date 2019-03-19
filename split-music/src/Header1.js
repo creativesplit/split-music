@@ -7,10 +7,9 @@ import  DrawerToggleButton from './DrawerToggleButton'
 
 
 
-class Header extends Component {
+const Header1 = props => (
 
-  render() {
-    return (
+
 
         <div>
         <header className='header-wrapper'> 
@@ -37,10 +36,8 @@ class Header extends Component {
       </header>
       </div>
     )
-  }
-}
 
-export default Header;
+export default Header1;
 
 
 {/* <Link className='header-link' type='button' to='/'>All Music</Link>

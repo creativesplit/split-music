@@ -1,0 +1,39 @@
+.ARTIST-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 60%;
+    margin-top: 40px;
+}
+
+.ARTIST-name {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.ARTIST-card{
+    margin: 135px 50px 50px 50px;
+    background: url('https://i.imgur.com/MciWgbJ.jpg');
+    color: rgb(	205 205 193);
+    border: 1px solid rgb(219, 163, 89);
+}
+
+.ARTIST-description{
+    color: rgb(	205 205 193);
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.suggested-artists{
+    margin-top: 70px;
+}
+
+.ARTIST-player{
+    display: inline-flex;
+    max-height: 200px;
+}

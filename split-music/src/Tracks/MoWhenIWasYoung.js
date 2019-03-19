@@ -2,25 +2,21 @@ import React, { Component,PropTypes } from 'react';
 import ReactDOM from 'react-dom'
 import ReactPlayer from 'react-player'
 import {Link} from 'react-router-dom'
-import './Odesza.css'
+import './MoWhenIWasYoung.css'
 
-class /*ARTIST*/ extends Component {
+class MoWhenIWasYoung extends Component {
   render() {
     return (
-        <div className='artist-card'>
-        <div className='container'>
-        <div><h1 className='artist-name'> ARTIST NAME</h1></div>
-        <div><img className='artist-photo' src="https://i.imgur.com/CU4hVbb.jpg" ></img></div>
+        <div className='mowheniwasyoung-entry'>
+        <div className='mowheniwasyoung-flex-container'>
+        <h2 className='mo-link-container'><Link className='mo-link' type='button' to='/mo'> Mo</Link> - When I was Young</h2>
+          <h3 className='mowheniwasyoung-genre'>Electro Pop</h3>
+          <h3 className='mowheniwasyoung-date'>Jan 23</h3>
         </div>
-        <p className='artist-description'> </p>
+        <p className='mowheniwasyoung-description'> Mo really killed it with this one.  Strong vocals over a jazz beat that 
+        you can dance to, the Swedish vocalist drops another track that should be in your Friday night rotation </p>
         <div>
-        <div className='artist-tracks'>
-        <ReactPlayer className='artist-player' url='https://soundcloud.com/odesza/loyal' />
-        </div>
-        <div className='suggested-artists'>
-        <h2 className='suggested-artists'>If you like ARTIST, check out these artists</h2>
-      
-        </div>
+        <ReactPlayer className='mowheniwasyoung-player' url='https://soundcloud.com/momomoyouth/when-i-was-young' />
         </div>
         </div>
 
@@ -29,4 +25,4 @@ class /*ARTIST*/ extends Component {
   }
 }
 
-export default /*ARTIST*/;
+export default MoWhenIWasYoung;

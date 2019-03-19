@@ -4,3 +4,10 @@ body {
   background-position: top center;
   background-size: cover;
 }
+
+.title{
+  color: rgb(219, 163, 89);
+  margin: 130px 0px 0px 0px;
+  font-size: 40px;
+  font-weight: 200;
+}

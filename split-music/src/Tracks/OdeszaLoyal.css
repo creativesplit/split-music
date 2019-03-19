@@ -1,5 +1,5 @@
 .odeszaloyal-entry{
-    margin: 90px 50px 0px 50px;
+    margin: 90px 50px 50px 50px;
     background: url('https://i.imgur.com/o0KfpxC.jpg?1');
     background-size: cover;
     padding:10px 10px 25px 10px;
@@ -15,7 +15,7 @@
     padding: 0px 40px 0px 40px;
     text-decoration: none;
     font-weight: 600;
-    color:rgb(	205 205 193);
+    color:rgb(205 205 193);
 }
 
 .odeszaloyal-date{
@@ -23,8 +23,6 @@
     font-weight: 400;
     font-size: 20px;
     color:rgb(205 205 193);
-    /* background-color: rgba(255,255,240, .3); */
-    border-radius: 3px;
     padding: 0px 15px 0px 15px;
 }
 
@@ -38,9 +36,9 @@
     font-weight: 400;
     font-size: 20px;
     color:rgb(205 205 193);
-    /* background-color: rgba(255,255,240, .3); */
-    border-radius: 3px;
     padding: 0px 10px 0px 10x;
+    text-align: left;
+    width: 200px;
 }
 .odesza-link-container{
     text-decoration: none;

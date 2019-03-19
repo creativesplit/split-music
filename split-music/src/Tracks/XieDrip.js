@@ -11,7 +11,7 @@ class XieDrip extends Component {
         <div className='xiedrip-entry'>
         <div className='xiedrip-flex-container'>
         <h2 className='xie-link-container'><Link className='xie-link' type='button' to='./xie'>Xie</Link> - Drip</h2>
-          <h3 className='xiedrip-genre'>Electro Pop</h3>
+          <h3 className='xiedrip-genre'>Heavy</h3>
           <h3 className='xiedrip-date'>Jan 20</h3>
         </div>
         <p className='xiedrip-description'> Xie is an up and coming DJ with an irrestible blend of pop and bass.

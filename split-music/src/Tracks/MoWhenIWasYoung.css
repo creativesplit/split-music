@@ -1,13 +1,13 @@
-./*ARTIST/TRACK*/-entry{
-    margin: 180px 50px 0px 50px;
-    background: url('https://i.imgur.com/pSxi1J1.jpg');
+.mowheniwasyoung-entry{
+    margin: 90px 50px 0px 50px;
+    background: url('https://i.imgur.com/o0KfpxC.jpg?1');
     background-size: cover;
     padding:10px 10px 25px 10px;
-    border: 2x solid rgb(219, 163, 89);
+    border: 1px solid rgb(219, 163, 89);
     border-radius: 3px;
 }
 
-./*ARTIST/TRACK*/-flex-container{
+.mowheniwasyoung-flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,55 +15,52 @@
     padding: 0px 40px 0px 40px;
     text-decoration: none;
     font-weight: 600;
-    color: black;
+    color:rgb(205 205 193);
 }
 
-./*ARTIST/TRACK*/-date{
+.mowheniwasyoung-date{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    color: rgba(34, 32, 33, .9);
-    background-color: rgba(255,255,240, .3);
-    border: solid 1px rgba(34, 32, 33, .8);
-    border-radius: 3px;
+    color:rgb(205 205 193);
     padding: 0px 15px 0px 15px;
 }
 
-./*ARTIST/TRACK*/-player{
+.mowheniwasyoung-player{
     display: inline-flex;
     max-height: 200px;
 }
 
-./*ARTIST/TRACK*/-genre{
+.mowheniwasyoung-genre{
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    color: rgba(34, 32, 33, .9);
-    background-color: rgba(255,255,240, .3);
-    border: solid 1px rgba(34, 32, 33, .8);
-    border-radius: 3px;
+    color:rgb(205 205 193);
     padding: 0px 10px 0px 10x;
+    width: 300px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
 }
-./*ARTIST*/-link-container{
+.mo-link-container{
     text-decoration: none;
     font-weight: 400;
     font-size: 25px;
-    color: rgba(34, 32, 33, .9);
-    background-color: rgba(255,255,240, .3);
-    border: solid 1px rgba(34, 32, 33, .8);
-    border-radius: 3px;
+    color:rgb(205 205 193);
     padding: 0px 15px 0px 15px;
 }
 
-./*ARTIST*/-link{
+.mo-link{
     text-decoration: none;
     font-weight: 400;
     font-size: 25px;
-    color: rgba(34, 32, 33, .9);
-    /* text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  */
+    color: rgb(219, 163, 89);
+    background-color: rgba(34, 32, 33, .8);
     border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.mowheniwasyoung-description{
+    color:rgb(205 205 193);
 }

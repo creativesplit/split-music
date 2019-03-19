@@ -8,7 +8,8 @@ class Trap extends Component {
   render() {
     return (
         <div>
-        <p> Trap Test</p>
+        <h3 className='title'>Trap</h3>
+        <Odeszaloyal />
         </div>
 
        

@@ -1,0 +1,27 @@
+/* .toolbar{
+    width: 100%;
+    position: fixed;
+    background-color: red;
+} */
+
+/* .toolbar-logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 5px;
+}
+
+.toolbar-menu-items{
+    color: white;
+} */
+
+.toolbar-logo{
+    color: red;
+}
+
+.toolbar-menu-items{
+    color: white;
+}
+
+.menu-item{
+    color: whitesmoke;
+}
