@@ -4,11 +4,11 @@
     justify-content: space-around;
     height: 30px;
     width: 40px;
-    color: white;
     background: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
+    margin-right: 30px;
     box-sizing: border-box;
 }
 
@@ -19,5 +19,6 @@
 .toggle-button-line{
     width: 30px;
     height: 1px;
-    background: white;
+    /* background: white; */
+    background: rgb(219, 163, 89);
 }
